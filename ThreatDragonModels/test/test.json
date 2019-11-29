@@ -46,8 +46,8 @@
                 "height": 100
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 480,
+                "y": 180
               },
               "angle": 0,
               "id": "fa9d25ac-83b3-49a2-b5f8-cd65362351b5",
@@ -58,7 +58,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "reverse proxy"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -72,8 +72,8 @@
                 "height": 80
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 202,
+                "y": 187
               },
               "angle": 0,
               "id": "b31d3cf2-e5f7-4fba-83f8-98a22ec11fb2",
@@ -84,7 +84,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 2"
+                  "text": "terminal"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -98,19 +98,21 @@
                 "height": 80
               },
               "position": {
-                "x": 487,
-                "y": 445
+                "x": 10,
+                "y": 510
               },
               "angle": 0,
               "id": "7977481f-2dcd-4f81-8f7e-ecbd9248905c",
               "z": 4,
               "hasOpenThreats": false,
+              "storesCredentials": true,
+              "isEncrypted": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 3"
+                  "text": "OS credentials\n/etc/passwd"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -124,19 +126,21 @@
                 "height": 80
               },
               "position": {
-                "x": 307,
-                "y": 456
+                "x": 180,
+                "y": 510
               },
               "angle": 0,
               "id": "aa1d3aff-67fe-48e0-bf4c-62964132ac29",
               "z": 5,
               "hasOpenThreats": false,
+              "storesCredentials": true,
+              "isEncrypted": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 4"
+                  "text": "µSIEM credentials"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -150,19 +154,21 @@
                 "height": 80
               },
               "position": {
-                "x": 18,
-                "y": 330
+                "x": 350,
+                "y": 510
               },
               "angle": 0,
               "id": "e7f2fe46-4dab-496e-8364-65501e7aa3aa",
               "z": 6,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "storesCredentials": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 5"
+                  "text": "IDS credentials"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -176,19 +182,197 @@
                 "height": 80
               },
               "position": {
-                "x": 165,
-                "y": 470
+                "x": 520,
+                "y": 510
               },
               "angle": 0,
               "id": "25601369-cace-4939-9344-1647acfa2f8e",
               "z": 7,
+              "hasOpenThreats": false,
+              "storesCredentials": true,
+              "isSigned": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "ESM credentials"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 690,
+                "y": 510
+              },
+              "angle": 0,
+              "id": "8813bf9b-f01d-45ca-aedc-998ba3b270d6",
+              "z": 8,
+              "hasOpenThreats": false,
+              "isEncrypted": false,
+              "storesCredentials": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "IDS data"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 860,
+                "y": 510
+              },
+              "angle": 0,
+              "id": "f6c4154e-81e2-445a-8bf0-a5c2cdf28d31",
+              "z": 9,
               "hasOpenThreats": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 6"
+                  "text": "store 8"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1030,
+                "y": 510
+              },
+              "angle": 0,
+              "id": "b98c2d89-5a38-42da-bf13-53b3c03433fd",
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 9"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 460,
+                "y": 10
+              },
+              "angle": 0,
+              "id": "63148114-fc50-4000-9c58-90ce33f7452d",
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web page"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "63148114-fc50-4000-9c58-90ce33f7452d"
+              },
+              "target": {
+                "id": "fa9d25ac-83b3-49a2-b5f8-cd65362351b5"
+              },
+              "vertices": [
+                {
+                  "x": 510,
+                  "y": 130
+                }
+              ],
+              "id": "b284cc82-ca90-4efa-a07a-960700e9436d",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5471573773456134,
+                    "offset": 31.75132366811245
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "HTTPS",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 50,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "30b0b452-6c14-45c5-b341-3eb7f8c640f8",
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 12"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -199,7 +383,7 @@
         },
         "size": {
           "height": 3561,
-          "width": 790
+          "width": 1200
         }
       }
     ],
