@@ -8,7 +8,7 @@
     "contributors": [],
     "diagrams": [
       {
-        "title": "test",
+        "title": "CSAP",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
@@ -303,7 +303,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Web page"
+                  "text": "Browser"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -360,8 +360,8 @@
                 "height": 100
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 30,
+                "y": 290
               },
               "angle": 0,
               "id": "30b0b452-6c14-45c5-b341-3eb7f8c640f8",
@@ -372,7 +372,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 12"
+                  "text": "SSH server"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
